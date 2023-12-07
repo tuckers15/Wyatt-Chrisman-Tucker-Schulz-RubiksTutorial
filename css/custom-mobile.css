@@ -1,0 +1,32 @@
+/* media query for screens with a max-width of 600px */
+
+@media screen and (max-width: 600px) {
+
+    /* Set the display property of the sections to "block" to stack them vertically */
+    .header, nav {
+        display: block;
+        width: 600px;
+    }
+      
+    .homeWrapper, .firstSideWrapper,.beginnerTables,
+    .intermediateTables, .mainContainer, form{
+        display: flex;
+        flex-direction: column;
+    }
+
+      
+    .section1,
+    .section2,
+    .section3,
+    .section4,
+    .beginnerTables,
+    .intermediateTables,
+    .notationSection,
+    .homeVid,
+    .firstSideIntro,
+    .whiteCross,
+    .whiteCrossVid,
+    .whiteCorners {
+        width: 600px;
+      }
+}    
